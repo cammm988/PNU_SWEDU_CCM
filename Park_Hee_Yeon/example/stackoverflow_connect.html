@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            #console { width: 300px; height: 20px; border: 1px solid #ccc; }
+            #msg { width: 300px; height: 20px; border: 1px solid red; }
+        </style>
+        <script type="text/javascript">
+            function selectText() {
+                var selectionText = "";
+                if (document.getSelection) {
+                    selectionText = document.getSelection();
+                } else if (document.selection) {
+                    selectionText = document.selection.createRange().text;
+                }
+                return selectionText;
+            }
+
+            document.onmouseup = function() {
+                document.getElementById("console").innerHTML = selectText();
+
+            }
+            function show(){
+                document.getElementById("msg").innerHTML = selectText();
+                location.href="https://stackoverflow.com/search?q="+selectText();
+            }
+            function gshow(){
+                location.href="https://google.com/search?q="+selectText();
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <form>
+            <input type="text" name="txt" id="txt" placeholder="write">
+            <input type="button" value="stack" id="button" onclick="show();">
+            <input type="button" value="google" id="button" onclick="gshow();">
+        </form>
+        <p>abcdefghijklmnopqrstuvwxyz</p>
+        <div id="console">
+        </div>
+        <div id="msg"></div>
+    </body>
+</html>
