@@ -9,10 +9,14 @@
             overflow: hidden;
             height : 100%;
             width : 100%;
+            font-size : 0px;
+            margin : 0px;
         }
         html {
             height : 100%;
             width  : 100%;
+            font-size:0px;
+
         }
 
         #editor {
@@ -28,21 +32,34 @@
 
         div.buttons {
             position:relative;
+            font-size : 0px;
         }
         div.editors {
             height : 100%;
-            width : 30%;
+            width : 600px;
             position:relative;
         }
+        .button {
+            background-color: black;
+            color: white;
+            width:200px;
+            height: 24px;
 
+        }
+
+        .button:hover {
+            background-color: #555555;
+            color: white;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
     </style>
 </head>
 <body>
 
 <div class = "buttons">
-    <button type = "button"> Stackoverflow </button>
-    <button type = "button"> Compile </button>
-    <button type = "button"> Mentoring 게시판</button>
+    <button type = "button" class = "button"> Stackoverflow </button>
+    <button type = "button" class = "button"> Compile </button>
+    <button type = "button" class = "button" > Mentoring</button>
 
 </div>
 
@@ -53,13 +70,22 @@
     }
 }</pre>
 </div>
-
+<script src="src-noconflict/ace.js"></script>
+<!-- load ace language tools -->
+<script src="src-noconflict/ext-language_tools.js"></script>
 <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
+    ace.require("ace/ext/language_tools");
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/twilight");
     editor.session.setMode("ace/mode/javascript");
     editor.setFontSize("15px")
+    // enable autocompletion and snippets
+    editor.setOptions({
+        enableBasicAutocompletion: true,
+        enableSnippets: true,
+        enableLiveAutocompletion: true
+    });
 </script>
 
 </body>
