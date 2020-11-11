@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Editor</title>
+    <style type="text/css" media="screen">
+        body {
+            overflow: hidden;
+            height : 100%;
+            width : 100%;
+        }
+        html {
+            height : 100%;
+            width  : 100%;
+        }
+
+        #editor {
+            margin: 0px;
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height:100%;
+            width: 100%;%
+        }
+
+        div.buttons {
+            position:relative;
+        }
+        div.editors {
+            height : 100%;
+            width : 30%;
+            position:relative;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class = "buttons">
+    <button type = "button"> Stackoverflow </button>
+    <button type = "button"> Compile </button>
+    <button type = "button"> Mentoring 게시판</button>
+
+</div>
+
+<div class = "editors"> <pre id="editor">function foo(items) {
+    var i;
+    for (i = 0; i &lt; items.length; i++) {
+        alert("Ace Rocks " + items[i]);
+    }
+}</pre>
+</div>
+
+<script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.session.setMode("ace/mode/javascript");
+    editor.setFontSize("15px")
+</script>
+
+</body>
+</html>

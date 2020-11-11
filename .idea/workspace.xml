@@ -16,17 +16,12 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="ace-master editor first addedg">
+    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="ace editor">
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05__9_42__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05__9_42__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +36,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="main" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jqsvZQVILOf20tiJoVHdz9W3Ie" />
+  <component name="ProjectId" id="1jlIZiLR0QiMNN2ikm1gI9g0J78" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -57,55 +49,48 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.main.html">
-    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PNU_SWEDU_CCM/Lee_Chan_Young/main.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="skin.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PNU_SWEDU_CCM/Park_Eun_Young/skin.html" useBuiltInWebServerPort="true">
+  <component name="RunManager">
+    <configuration name="Highlight.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PNU_SWEDU_CCM/Lee_Chan_Young/Highlight.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.main.html" />
-        <item itemvalue="JavaScript Debug.skin.html" />
+        <item itemvalue="JavaScript Debug.Highlight.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="" />
-      <created>1604543188196</created>
+      <changelist id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="" />
+      <created>1604372309369</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604543188196</updated>
-      <workItem from="1604543189275" duration="820000" />
-      <workItem from="1604580143220" duration="1870000" />
-      <workItem from="1604639102531" duration="850000" />
-      <workItem from="1604718216639" duration="12000" />
-      <workItem from="1605018657910" duration="1636000" />
-      <workItem from="1605054366848" duration="695000" />
+      <updated>1604372309369</updated>
+      <workItem from="1604372311228" duration="582000" />
+      <workItem from="1604550212216" duration="5966000" />
     </task>
-    <task id="LOCAL-00001" summary="config commit">
-      <created>1604580402657</created>
+    <task id="LOCAL-00001" summary="deleted ace editor">
+      <created>1604553330187</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1604580402657</updated>
+      <updated>1604553330187</updated>
     </task>
-    <task id="LOCAL-00002" summary="ace-master editor first added">
-      <created>1604581012870</created>
+    <task id="LOCAL-00002" summary="ace editor">
+      <created>1604555264260</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1604581012870</updated>
+      <updated>1604555264260</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -118,19 +103,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -139,26 +112,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="config commit" />
-    <MESSAGE value="ace-master editor first added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ace-master editor first added" />
+    <MESSAGE value="deleted ace editor" />
+    <MESSAGE value="ace editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="ace editor" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1604580892220">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="92" y="92" width="1416" height="716" key="DiffContextDialog" timestamp="1604555847674">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604580892220" />
-    <state x="598" y="300" key="MultipleFileMergeDialog" timestamp="1604580444744">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="92" y="92" width="1416" height="716" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1604555847674" />
+    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1604555266518">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="598" y="300" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604580444744" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1604581016032">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1604555266518" />
+    <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604554564130">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604581016032" />
-    <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605018733273">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605018733273" />
+    <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1604554564130" />
   </component>
 </project>

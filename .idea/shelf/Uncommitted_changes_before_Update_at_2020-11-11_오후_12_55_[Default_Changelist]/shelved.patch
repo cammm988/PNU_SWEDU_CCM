@@ -1,0 +1,67 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"a2e2be27-fee4-4304-bfc0-5e5f79d8ee68\" name=\"Default Changelist\" comment=\"ace editor\">\n      <change afterPath=\"$PROJECT_DIR$/Lee_Chan_Young/package-lock.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1jlIZiLR0QiMNN2ikm1gI9g0J78\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Highlight.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/PNU_SWEDU_CCM/Lee_Chan_Young/Highlight.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JavaScript Debug.Highlight.html\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"a2e2be27-fee4-4304-bfc0-5e5f79d8ee68\" name=\"Default Changelist\" comment=\"\" />\n      <created>1604372309369</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1604372309369</updated>\n      <workItem from=\"1604372311228\" duration=\"582000\" />\n      <workItem from=\"1604550212216\" duration=\"5966000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"deleted ace editor\">\n      <created>1604553330187</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604553330187</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"ace editor\">\n      <created>1604555264260</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604555264260</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"deleted ace editor\" />\n    <MESSAGE value=\"ace editor\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ace editor\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"92\" y=\"92\" width=\"1416\" height=\"716\" key=\"DiffContextDialog\" timestamp=\"1604555847674\">\n      <screen x=\"0\" y=\"0\" width=\"1600\" height=\"900\" />\n    </state>\n    <state x=\"92\" y=\"92\" width=\"1416\" height=\"716\" key=\"DiffContextDialog/0.0.1600.900@0.0.1600.900\" timestamp=\"1604555847674\" />\n    <state x=\"784\" y=\"183\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1604555266518\">\n      <screen x=\"0\" y=\"0\" width=\"1600\" height=\"900\" />\n    </state>\n    <state x=\"784\" y=\"183\" key=\"Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900\" timestamp=\"1604555266518\" />\n    <state x=\"1015\" y=\"363\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1604554564130\">\n      <screen x=\"0\" y=\"0\" width=\"1600\" height=\"900\" />\n    </state>\n    <state x=\"1015\" y=\"363\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900\" timestamp=\"1604554564130\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision cb73cdccb4e6ae95c364569fd406827e8719c916)
++++ .idea/workspace.xml	(date 1605066896909)
+@@ -19,8 +19,7 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="ace editor">
+-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/package-lock.json" afterDir="false" />
++    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="ace editor master added">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -76,6 +75,8 @@
+       <updated>1604372309369</updated>
+       <workItem from="1604372311228" duration="582000" />
+       <workItem from="1604550212216" duration="5966000" />
++      <workItem from="1604557405158" duration="4053000" />
++      <workItem from="1605066138974" duration="590000" />
+     </task>
+     <task id="LOCAL-00001" summary="deleted ace editor">
+       <created>1604553330187</created>
+@@ -91,7 +92,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1604555264260</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="ace editor deleted">
++      <created>1604557548798</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1604557548798</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -113,17 +121,19 @@
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="deleted ace editor" />
+     <MESSAGE value="ace editor" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ace editor" />
++    <MESSAGE value="ace editor deleted" />
++    <MESSAGE value="ace editor master added" />
++    <option name="LAST_COMMIT_MESSAGE" value="ace editor master added" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="92" y="92" width="1416" height="716" key="DiffContextDialog" timestamp="1604555847674">
+       <screen x="0" y="0" width="1600" height="900" />
+     </state>
+     <state x="92" y="92" width="1416" height="716" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1604555847674" />
+-    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1604555266518">
++    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1604557574908">
+       <screen x="0" y="0" width="1600" height="900" />
+     </state>
+-    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1604555266518" />
++    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1604557574908" />
+     <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604554564130">
+       <screen x="0" y="0" width="1600" height="900" />
+     </state>
