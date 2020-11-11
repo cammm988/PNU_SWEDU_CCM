@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="FIrst Design">
+    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="Autocompletion Completed">
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autocompletion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autocompletion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,6 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -99,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605073301840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Autocompletion Completed">
+      <created>1605074974244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605074974244</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,17 +132,18 @@
     <MESSAGE value="deleted ace editor" />
     <MESSAGE value="ace editor" />
     <MESSAGE value="FIrst Design" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIrst Design" />
+    <MESSAGE value="Autocompletion Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autocompletion Completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1416" height="716" key="DiffContextDialog" timestamp="1604555847674">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="92" y="92" width="1416" height="716" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1604555847674" />
-    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605073302255">
+    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605074988191">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605073302255" />
+    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605074988191" />
     <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604554564130">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
