@@ -47,12 +47,21 @@
                 <p class = "sub_title"> 질문 제목 </p>
                 <input type="text" id="input1" class="Input-text" placeholder="제목을 입력하시오">
                 <p class = "sub_title"> 질문</p>
-                <textarea type="text" id="input2" class="Input-text" placeholder="질문을 입력하시오"> sdf</textarea>
+                <textarea type="text" id = "textarea1" class="Input-text" placeholder="질문을 입력하시오"> sdf</textarea>
             </div>
 
             <div id = "coding-region" style = "color : white">
-                <p> 불러온 코드 </p>
+                <p>불러온 코드</p>
+              <pre id="editor2">
+               function foo(items) {
+        var i;
+        for (i = 0; i < items.length; i++) {
+            alert("Ace Rocks " + items[i]);
+        }
+    }
+    </pre>
             </div>
+
         </div>
 
     </div>
@@ -77,7 +86,13 @@
 <!-- mentoring_modal -->
 
 <script>
+    //get content from editor and place it to mentoring editor
+    var editor1_content = document.getElementById("editor").innerHTML;
+
+
+
     //ace.require("ace/ext/language_tools;
+
         var editor = ace.edit("editor");
 
        // ace.require('ace/ext/settings_menu').init(editor);
@@ -90,6 +105,20 @@
             enableSnippets: true,
             enableLiveAutocompletion: true
         });
+
+
+    var editor2 = ace.edit("editor2");
+    // ace.require('ace/ext/settings_menu').init(editor);
+    editor2.setTheme("ace/theme/twilight");
+    editor2.session.setMode("ace/mode/javascript");
+    editor2.setFontSize("15px")
+    // enable autocompletion and snippets
+    editor2.setOptions({
+        enableBasicAutocompletion: true,
+        enableSnippets: true,
+        enableLiveAutocompletion: true
+    });
+
         /* menu added
         editor.commands.addCommands([{
             name: "showSettingsMenu",

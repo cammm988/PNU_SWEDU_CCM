@@ -79,28 +79,32 @@ html::after {
     background-color: #fefefe;
     margin: 5% auto; /* 15% from the top and centered */
     border-radius : 10px;
-    height: 90%;
+    height: 900px;
     background : #141414;
     border: 1px solid #888;
-    width: 60%; /* Could be more or less, depending on screen size */
+    width: 850px; /* Could be more or less, depending on screen size */
+
 }
 
 .frame-work {
     text-align: center;
     display: flex;
-    width: 100%;
-    height: 100%;
+    flex-direction: row;
+    width: 800px;
+    height: 800px;
     align-items: center;
+    margin : -90px;
 }
 
 #modal-content {
-    height : 100vh;
+    height : 600px;
     width : 50%;
 }
 
 #coding-region {
-    height : 100vh;
-    width : 50%;
+    height : 600px;
+    width : 60%;
+    padding : 0 0 0 10px;
 }
 
 /* The Close Button */
@@ -125,7 +129,7 @@ html::after {
 
 
 .Title {
-    margin: 0 0 var(--gutterXx) 0;
+    margin: 0 0 0 0;
     padding: 0;
     color: #fff;
     font-size: var(--fontSizeLg);
@@ -158,8 +162,22 @@ html::after {
     box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
 }
 
-#input2 {
-    height :100%;
+#textarea1 {
+    height:690px;
+}
 
-    line-height : 1;
+#textarea2 {
+    height: 780px;
+    width : 100%:
+}
+
+#editor2 {
+    margin: 0px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:780px;
+    width: 100%;
 }
