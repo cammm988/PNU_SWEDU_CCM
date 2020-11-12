@@ -25,12 +25,12 @@
     <div class = "editors">
         <!--<iframe height="400px" width="100%" src="https://repl.it/@cammm988/ResponsibleWorseKernel?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock
  allow-popups allow-same-origin allow-scripts allow-modals"></iframe>-->
-        <pre id="editor">function foo(items) {
-        var i;
-        for (i = 0; i &lt; items.length; i++) {
-            alert("Ace Rocks " + items[i]);
-        }
-    }</pre>
+        <pre id="editor">
+int a[5] = {1,2,3,4,5};
+for (int i = 0 ; i< a.length(); i++) {
+    cout << a[i] << endl;
+    }
+        </pre>
     </div>
 
 </div>
@@ -97,7 +97,7 @@
         var editor = ace.edit("editor");
 
        // ace.require('ace/ext/settings_menu').init(editor);
-        editor.setTheme("ace/theme/twilight");
+        editor.setTheme("ace/theme/dracula");
         editor.session.setMode("ace/mode/javascript");
         editor.setFontSize("15px")
         // enable autocompletion and snippets
