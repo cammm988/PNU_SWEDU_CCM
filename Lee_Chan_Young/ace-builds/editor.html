@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Editor</title>
-    <link href = "stylesheet.css" type = "text/css" media = "screen" rel = "stylesheet">
-
+    <link href = "css/editor.css" type = "text/css" media = "screen" rel = "stylesheet">
+    <link href = "css/mentoring.css" type = "text/css" rel = "stylesheet">
 </head>
 <body>
 <div class = "left">
     <!-- buttons -->
     <div class = "buttons">
-        <button type = "button" class = "button"> Stackoverflow </button>
+        <button type = "button" class = "button" > Stackoverflow </button>
         <button type = "button" class = "button"> Compile </button>
-        <button type = "button" class = "button" > Mentoring</button>
+        <button type = "button" class = "button" id="mentoring" > Mentoring</button>
     </div>
     <a href="#" class="next round">&#8250;</a>
     <div class = "more">
@@ -33,6 +33,16 @@
 
 </div>
 
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+
+</div>
+
     <!--javascript -->
     <script src="src-noconflict/ace.js"></script>
     <!-- load ace language tools -->
@@ -44,6 +54,9 @@
 <script src="src/ace.js"></script>
 <script src="src/ext-settings_menu.js"></script>
 -->
+
+<!-- mentoring_modal -->
+<script src="javascript/mentoring.js" type = "text/javascript" charset="utf-8"></script>
 
 <script>
     //ace.require("ace/ext/language_tools;

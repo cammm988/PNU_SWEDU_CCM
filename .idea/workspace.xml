@@ -16,14 +16,30 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="Autocompletion Completed">
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/stylesheet.css" afterDir="false" />
+    <list default="true" id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="ace-master editor first addedg">
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/mentoring.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/mentoring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05__2_14__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05__9_42__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05__9_42__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05_오후_2_14_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-11__12_55__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-11__12_55__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autocompletion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autocompletion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/editor.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +51,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,9 +73,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lee_Chan_Young/other" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\other" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\ace-builds\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Highlight.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PNU_SWEDU_CCM/Lee_Chan_Young/Highlight.html" useBuiltInWebServerPort="true">
@@ -73,13 +99,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="" />
+      <changelist id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="ace-master editor first addedg" />
       <created>1604372309369</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604372309369</updated>
       <workItem from="1604372311228" duration="582000" />
       <workItem from="1604550212216" duration="5966000" />
+      <workItem from="1605144924271" duration="749000" />
+      <workItem from="1605169138648" duration="3941000" />
     </task>
     <task id="LOCAL-00001" summary="deleted ace editor">
       <created>1604553330187</created>
@@ -120,7 +148,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -144,9 +184,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605074988191" />
-    <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604554564130">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605169165123">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1604554564130" />
+    <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605169165123" />
   </component>
 </project>
