@@ -1,0 +1,171 @@
+Index: Lee_Chan_Young/ace-builds/editor.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n  <title>Editor</title>\r\n  <style type=\"text/css\" media=\"screen\">\r\n    body {\r\n        overflow: hidden;\r\n    }\r\n\r\n    #editor {\r\n        margin: 0;\r\n        position: absolute;\r\n        top: 0;\r\n        bottom: 0;\r\n        left: 0;\r\n        right: 0;\r\n    }\r\n  </style>\r\n</head>\r\n<body>\r\n\r\n<pre id=\"editor\">function foo(items) {\r\n    var i;\r\n    for (i = 0; i &lt; items.length; i++) {\r\n        alert(\"Ace Rocks \" + items[i]);\r\n    }\r\n}</pre>\r\n\r\n<script src=\"src-noconflict/ace.js\" type=\"text/javascript\" charset=\"utf-8\"></script>\r\n<script>\r\n    var editor = ace.edit(\"editor\");\r\n    editor.setTheme(\"ace/theme/twilight\");\r\n    editor.session.setMode(\"ace/mode/javascript\");\r\n</script>\r\n\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Lee_Chan_Young/ace-builds/editor.html	(revision ce7fa31a45b923a5039cea4e1b6162683d5ad4c5)
++++ Lee_Chan_Young/ace-builds/editor.html	(date 1605058727446)
+@@ -30,9 +30,20 @@
+ 
+ <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+ <script>
++    /*
++    ace.edit(element, {
++        mode: "ace/mode/javascript",
++        selectionStyle: "text",
++        setTheme: "ace/theme/twilight"
++    })
++*/
++
+     var editor = ace.edit("editor");
++
+     editor.setTheme("ace/theme/twilight");
+-    editor.session.setMode("ace/mode/javascript");
++    editor.session.setMode("ace/mode/python");
++    editor.readOnly(true);
++
+ </script>
+ 
+ </body>
+Index: Lee_Chan_Young/ace-builds/demo/autocompletion.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <title>ACE Autocompletion demo</title>\r\n  <style type=\"text/css\" media=\"screen\">\r\n    body {\r\n        overflow: hidden;\r\n    }\r\n    \r\n    #editor { \r\n        margin: 0;\r\n        position: absolute;\r\n        top: 0;\r\n        bottom: 0;\r\n        left: 0;\r\n        right: 0;\r\n    }\r\n  </style>\r\n</head>\r\n<body>\r\n\r\n<pre id=\"editor\"></pre>\r\n\r\n<!-- load ace -->\r\n<script src=\"../src-noconflict/ace.js\"></script>\r\n<!-- load ace language tools -->\r\n<script src=\"../src-noconflict/ext-language_tools.js\"></script>\r\n<script>\r\n    // trigger extension\r\n    ace.require(\"ace/ext/language_tools\");\r\n    var editor = ace.edit(\"editor\");\r\n    editor.session.setMode(\"ace/mode/html\");\r\n    editor.setTheme(\"ace/theme/tomorrow\");\r\n    // enable autocompletion and snippets\r\n    editor.setOptions({\r\n        enableBasicAutocompletion: true,\r\n        enableSnippets: true,\r\n        enableLiveAutocompletion: false\r\n    });\r\n</script>\r\n\r\n<script src=\"./show_own_source.js\"></script>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Lee_Chan_Young/ace-builds/demo/autocompletion.html	(revision ce7fa31a45b923a5039cea4e1b6162683d5ad4c5)
++++ Lee_Chan_Young/ace-builds/demo/autocompletion.html	(date 1605058812068)
+@@ -30,13 +30,13 @@
+     // trigger extension
+     ace.require("ace/ext/language_tools");
+     var editor = ace.edit("editor");
+-    editor.session.setMode("ace/mode/html");
++    editor.session.setMode("ace/mode/python");
+     editor.setTheme("ace/theme/tomorrow");
+     // enable autocompletion and snippets
+     editor.setOptions({
+         enableBasicAutocompletion: true,
+         enableSnippets: true,
+-        enableLiveAutocompletion: false
++        enableLiveAutocompletion: true
+     });
+ </script>
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:origin/main\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f65e0d1b-0afb-4ffe-b635-edf325ed61ac\" name=\"Default Changelist\" comment=\"ace-master editor first addedg\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Pull.Settings\">\r\n    <option name=\"BRANCH\" value=\"main\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1jqsvZQVILOf20tiJoVHdz9W3Ie\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.general\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JavaScript Debug.main.html\">\r\n    <configuration name=\"main.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/PNU_SWEDU_CCM/Lee_Chan_Young/main.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"skin.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/PNU_SWEDU_CCM/Park_Eun_Young/skin.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JavaScript Debug.main.html\" />\r\n        <item itemvalue=\"JavaScript Debug.skin.html\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f65e0d1b-0afb-4ffe-b635-edf325ed61ac\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1604543188196</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1604543188196</updated>\r\n      <workItem from=\"1604543189275\" duration=\"820000\" />\r\n      <workItem from=\"1604580143220\" duration=\"1870000\" />\r\n      <workItem from=\"1604639102531\" duration=\"850000\" />\r\n      <workItem from=\"1604718216639\" duration=\"12000\" />\r\n      <workItem from=\"1605018657910\" duration=\"1636000\" />\r\n      <workItem from=\"1605054366848\" duration=\"695000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"config commit\">\r\n      <created>1604580402657</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1604580402657</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"ace-master editor first added\">\r\n      <created>1604581012870</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1604581012870</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"config commit\" />\r\n    <MESSAGE value=\"ace-master editor first added\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ace-master editor first added\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"740\" y=\"295\" key=\"FileChooserDialogImpl\" timestamp=\"1604580892220\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\r\n    </state>\r\n    <state x=\"740\" y=\"295\" key=\"FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1604580892220\" />\r\n    <state x=\"598\" y=\"300\" key=\"MultipleFileMergeDialog\" timestamp=\"1604580444744\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\r\n    </state>\r\n    <state x=\"598\" y=\"300\" key=\"MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1604580444744\" />\r\n    <state x=\"552\" y=\"273\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1604581016032\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\r\n    </state>\r\n    <state x=\"552\" y=\"273\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1604581016032\" />\r\n    <state x=\"1257\" y=\"453\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1605018733273\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\r\n    </state>\r\n    <state x=\"1257\" y=\"453\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1605018733273\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision ce7fa31a45b923a5039cea4e1b6162683d5ad4c5)
++++ .idea/workspace.xml	(date 1605097750608)
+@@ -28,6 +28,8 @@
+   <component name="ChangeListManager">
+     <list default="true" id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="ace-master editor first addedg">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autocompletion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autocompletion.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -62,17 +64,22 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="settings.editor.selected.configurable" value="preferences.general" />
++    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+-  <component name="RunManager" selected="JavaScript Debug.main.html">
++  <component name="RunManager" selected="Node.js.demo.js">
+     <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PNU_SWEDU_CCM/Lee_Chan_Young/main.html" useBuiltInWebServerPort="true">
+       <method v="2" />
+     </configuration>
+     <configuration name="skin.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PNU_SWEDU_CCM/Park_Eun_Young/skin.html" useBuiltInWebServerPort="true">
++      <method v="2" />
++    </configuration>
++    <configuration name="demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/kitchen-sink/demo.js" working-dir="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/kitchen-sink">
+       <method v="2" />
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Node.js.demo.js" />
+         <item itemvalue="JavaScript Debug.main.html" />
+         <item itemvalue="JavaScript Debug.skin.html" />
+       </list>
+@@ -91,7 +98,7 @@
+       <workItem from="1604639102531" duration="850000" />
+       <workItem from="1604718216639" duration="12000" />
+       <workItem from="1605018657910" duration="1636000" />
+-      <workItem from="1605054366848" duration="695000" />
++      <workItem from="1605054366848" duration="2945000" />
+     </task>
+     <task id="LOCAL-00001" summary="config commit">
+       <created>1604580402657</created>
+@@ -107,7 +114,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1604581012870</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="ace-master editor first addedg">
++      <created>1605057600965</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1605057600965</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -141,24 +155,41 @@
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="config commit" />
+     <MESSAGE value="ace-master editor first added" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ace-master editor first added" />
++    <MESSAGE value="ace-master editor first addedg" />
++    <option name="LAST_COMMIT_MESSAGE" value="ace-master editor first addedg" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1604580892220">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604580892220" />
++    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1605059530622">
++      <screen x="0" y="0" width="1920" height="1080" />
++    </state>
++    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605059530622" />
++    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1605059530622">
++      <screen x="0" y="0" width="1920" height="1080" />
++    </state>
++    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605059530622" />
++    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1605059530622">
++      <screen x="0" y="0" width="1920" height="1080" />
++    </state>
++    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605059530622" />
++    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1605059530622">
++      <screen x="0" y="0" width="1920" height="1080" />
++    </state>
++    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605059530622" />
+     <state x="598" y="300" key="MultipleFileMergeDialog" timestamp="1604580444744">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+     <state x="598" y="300" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604580444744" />
+-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1604581016032">
++    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1605057612285">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604581016032" />
+-    <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605018733273">
++    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605057612285" />
++    <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605057312293">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+-    <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605018733273" />
++    <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605057312293" />
+   </component>
+ </project>
+\ No newline at end of file

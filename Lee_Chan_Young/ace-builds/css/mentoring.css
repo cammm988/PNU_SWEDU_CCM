@@ -1,4 +1,66 @@
-/* The Modal (background) */
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+:root {
+    /* generic */
+    --gutterSm: 0.4rem;
+    --gutterMd: 0.8rem;
+    --gutterLg: 1.6rem;
+    --gutterXl: 2.4rem;
+    --gutterXx: 7.2rem;
+    --colorPrimary400: #7e57c2;
+    --colorPrimary600: #5e35b1;
+    --colorPrimary800: #4527a0;
+    --fontFamily: "Dosis", sans-serif;
+    --fontSizeSm: 1.2rem;
+    --fontSizeMd: 1.6rem;
+    --fontSizeLg: 2.1rem;
+    --fontSizeXl: 2.8rem;
+    --fontSizeXx: 3.6rem;
+    --lineHeightSm: 1.1;
+    --lineHeightMd: 1.8;
+    --transitionDuration: 300ms;
+    --transitionTF: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    /* floated labels */
+    --inputPaddingV: var(--gutterMd);
+    --inputPaddingH: var(--gutterLg);
+    --inputFontSize: var(--fontSizeLg);
+    --inputLineHeight: var(--lineHeightMd);
+    --labelScaleFactor: 0.8;
+    --labelDefaultPosY: 50%;
+    --labelTransformedPosY: calc(
+            (var(--labelDefaultPosY)) -
+            (var(--inputPaddingV) * var(--labelScaleFactor)) -
+            (var(--inputFontSize) * var(--inputLineHeight))
+    );
+    --inputTransitionDuration: var(--transitionDuration);
+    --inputTransitionTF: var(--transitionTF);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.Wrapper {
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+html {
+    height : 100%;
+}
+html::after {
+    content: "";
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -7,31 +69,97 @@
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    overflow: hidden; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
-.modal-content {
+.modal-name {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    margin: 5% auto; /* 15% from the top and centered */
+    border-radius : 10px;
+    height: 90%;
+    background : #141414;
     border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
+    width: 60%; /* Could be more or less, depending on screen size */
 }
+
+.frame-work {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#modal-content {
+    height : 100vh;
+    width : 50%;
+}
+
+#coding-region {
+    height : 100vh;
+    width : 50%;
+}
+
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: #ffffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-.close:hover,
-.close:focus {
+
+.close:hover, .close:focus {
     color: black;
-    text-decoration: none;
+    text-decoration: overline;
     cursor: pointer;
 }
 
 
+#modal-content{
+    color:white;
+    padding : 5px;
+}
+
+
+.Title {
+    margin: 0 0 var(--gutterXx) 0;
+    padding: 0;
+    color: #fff;
+    font-size: var(--fontSizeLg);
+    font-weight: 400;
+    line-height: var(--lineHeightSm);
+    text-align: center;
+    text-shadow: -0.1rem 0.1rem 0.2rem var(--colorPrimary800);
+}
+.Input-text {
+    display: block;
+    margin: 5px;
+    padding: 0.1rem 0.1rem;
+    color: black;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: inherit;
+    line-height: var(--inputLineHeight);
+    border: none;
+    border-radius: 0.4rem;
+    transition: box-shadow var(--transitionDuration);
+}
+
+.Input-text::placeholder {
+    color: #B0BEC5;
+}
+
+.Input-text:focus {
+    outline: none;
+    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+}
+
+#input2 {
+    height :100%;
+
+    line-height : 1;
+}

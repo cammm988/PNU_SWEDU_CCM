@@ -26,20 +26,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="ace-master editor first addedg">
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/mentoring.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/mentoring.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05__2_14__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05__9_42__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05__9_42__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-05_오후_2_14_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-11__12_55__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-11__12_55__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="mentoring modal popup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autocompletion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autocompletion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/editor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/mentoring.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/mentoring.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autoresize.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/demo/autoresize.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/editor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/mentoring.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/mentoring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +71,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Lee_Chan_Young/other" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -107,7 +103,7 @@
       <workItem from="1604372311228" duration="582000" />
       <workItem from="1604550212216" duration="5966000" />
       <workItem from="1605144924271" duration="749000" />
-      <workItem from="1605169138648" duration="3941000" />
+      <workItem from="1605169138648" duration="13777000" />
     </task>
     <task id="LOCAL-00001" summary="deleted ace editor">
       <created>1604553330187</created>
@@ -137,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605074974244</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mentoring modal popup">
+      <created>1605176424115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605176424115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,21 +176,23 @@
     <MESSAGE value="ace editor" />
     <MESSAGE value="FIrst Design" />
     <MESSAGE value="Autocompletion Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Autocompletion Completed" />
+    <MESSAGE value="mentoring modal popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="mentoring modal popup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1416" height="716" key="DiffContextDialog" timestamp="1604555847674">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="92" y="92" width="1416" height="716" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1604555847674" />
-    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605074988191">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state x="941" y="220" key="Vcs.Push.Dialog.v2" timestamp="1605176426830">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605074988191" />
-    <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605169165123">
+    <state x="941" y="220" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605176426830" />
+    <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605185293272">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1604554564130" />
-    <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605169165123" />
+    <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605185293272" />
   </component>
 </project>
