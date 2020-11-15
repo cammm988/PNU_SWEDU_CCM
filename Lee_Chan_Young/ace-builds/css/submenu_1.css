@@ -1,0 +1,21 @@
+div.buttons {
+    position:relative;
+    font-size : 0px;
+}
+
+.button {
+    background-color: #282a36;
+    color: white;
+    width:200px;
+    border: none;
+    height: 25px;
+    transition: all 0.3s ease-in;
+}
+
+.button:hover {
+    background-color: #232323;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+
+}
+

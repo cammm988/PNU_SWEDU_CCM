@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Editor</title>
-    <link href = "css/editor.css" type = "text/css" media = "screen" rel = "stylesheet">
-    <link href = "css/mentoring.css" type = "text/css" rel = "stylesheet">
-    <script src="jquery-3.5.1.min.js"></script>
 
+    <link href = "css/editor.css" media = "screen" rel = "stylesheet">
+    <link href = "css/mentoring.css" rel = "stylesheet">
+    <link rel="stylesheet" href="css/submenu_1.css">
+    <link rel="stylesheet" href="css/submenu_2.css">
+    <script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
+
 <div class = "left">
     <!-- buttons -->
     <div class = "buttons">
@@ -17,16 +20,40 @@
         <button type = "button" class = "button"> Compile </button>
         <button type = "button" class = "button" id="mentoring" > Mentoring</button>
     </div>
-    <a href="#" class="next round">&#8250;</a>
 
     <div class = "more">
-    <!-- more functions here -->
+        <nav role="navigation">
+            <ul id="main-menu">
+                <li><a href="#">Language</a>
+                    <ul id="sub-menu">
+                        <li><a href="#" aria-label="subemnu" onclick = "myfunction()">C++</a></li>
+                        <li><a href="#" aria-label="subemnu">javascript</a></li>
+                        <li><a href="#" aria-label="subemnu">python</a></li>
+                        <li><a href="#" aria-label="subemnu">java</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Theme</a>
+                    <ul id="sub-menu">
+                        <li><a href="#" aria-label="subemnu">chaos</a></li>
+                        <li><a href="#" aria-label="subemnu">chrome</a></li>
+                        <li><a href="#" aria-label="subemnu">cobalt</a></li>
+                        <li><a href="#" aria-label="subemnu">github</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">다른 기능</a>
+                    <ul id="sub-menu">
+                        <li><a href="#" aria-label="subemnu">코드 저장</a></li>
+                        <li><a href="#" aria-label="subemnu">코드 삭제</a></li>
+                        <li><a href="#" aria-label="subemnu">불러오기</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
     </div>
 
-    <!-- Editors -->
+
     <div class = "editors">
-        <!--<iframe height="400px" width="100%" src="https://repl.it/@cammm988/ResponsibleWorseKernel?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock
- allow-popups allow-same-origin allow-scripts allow-modals"></iframe>-->
         <pre id="editor">
 int a[5] = {1,2,3,4,5};
 for (int i = 0 ; i< a.length(); i++) {
@@ -35,7 +62,6 @@ for (int i = 0 ; i< a.length(); i++) {
         </pre>
     </div>
 
-</div>
 
 <!-- mentoring modal pop-up-->
 <div id="myModal" class="modal">
@@ -55,40 +81,25 @@ for (int i = 0 ; i< a.length(); i++) {
             <div id = "coding-region" style = "color : white">
                 <p>불러온 코드</p>
 
-                <pre id="editor2">
-               function foo(items) {
-        var i;
-        for (i = 0; i < items.length; i++) {
-            alert("Ace Rocks " + items[i]);
-        }
-    }
-    </pre>
+                <pre id="editor2"></pre>
                 <button id = "submission"> 제출 </button>
             </div>
-
         </div>
-
     </div>
+</div>
+
 
 </div>
 
-    <script> // get content of editor
-    //console.log($("#editor").text());
-    //$("#editor2").text($("#editor").text());
-    </script>
-    <!--mentoring js -->
-
-    <script src="javascript/mentoring.js" type = "text/javascript" charset="utf-8"></script>
-
-    <!--javascript basic load -->
     <script src="src-noconflict/ace.js"></script>
-    <!-- load ace language tools -->
     <script src="src-noconflict/ext-language_tools.js"></script>
-
     <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 
     <script src="javascript/editor1.js"></script>
     <script src="javascript/editor2.js"></script>
-
+    <script src="javascript/mentoring.js" type = "text/javascript" charset="utf-8"></script>
+    <script> function myfunction() {
+        alert("works correctly");
+    }</script>
 </body>
 </html>

@@ -26,14 +26,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="mentoring with source editor submission button added">
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/editor1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/editor2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/main.js" afterDir="false" />
+    <list default="true" id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="copying editor 1 into editor2">
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/submenu_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/submenu_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/d.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/css/editor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/editor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/mentoring.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/mentoring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/editor1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/editor1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/editor2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/ace-builds/javascript/editor2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lee_Chan_Young/other/modal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,11 +77,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\other" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\ace-builds\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\other" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,7 +108,7 @@
       <workItem from="1605169138648" duration="24284000" />
       <workItem from="1605233722624" duration="5128000" />
       <workItem from="1605323209286" duration="2616000" />
-      <workItem from="1605408254724" duration="8726000" />
+      <workItem from="1605408254724" duration="20353000" />
     </task>
     <task id="LOCAL-00001" summary="deleted ace editor">
       <created>1604553330187</created>
@@ -163,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605195222427</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="copying editor 1 into editor2">
+      <created>1605433726479</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605433726479</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +213,8 @@
     <MESSAGE value="mentoring modal popup two separated boxes" />
     <MESSAGE value="mentoring with source editor added" />
     <MESSAGE value="mentoring with source editor submission button added" />
-    <option name="LAST_COMMIT_MESSAGE" value="mentoring with source editor submission button added" />
+    <MESSAGE value="copying editor 1 into editor2" />
+    <option name="LAST_COMMIT_MESSAGE" value="copying editor 1 into editor2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1416" height="716" key="DiffContextDialog" timestamp="1604555847674">
@@ -214,11 +225,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605197979928" />
-    <state x="941" y="220" key="Vcs.Push.Dialog.v2" timestamp="1605195224697">
+    <state x="941" y="220" key="Vcs.Push.Dialog.v2" timestamp="1605433728186">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605074988191" />
-    <state x="941" y="220" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605195224697" />
+    <state x="941" y="220" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605433728186" />
     <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605416062854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -228,5 +239,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="668" y="138" width="584" height="804" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605196094115" />
+    <state x="1103" y="235" key="search.everywhere.popup" timestamp="1605434995573">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1103" y="235" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605434995573" />
   </component>
 </project>
