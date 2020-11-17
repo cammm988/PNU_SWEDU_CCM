@@ -4,5 +4,13 @@
 # Requirement 
 + ### node.js-> 14.x
 
+# Features
+### 1.Theme mode supported
+### 2. 4 languages supported (c++, javascript, java, python)
+### 3. autocompletion
+### 4. Automatic alignment
+### 5. Live syntax checker 
+### 6. mentoring bulletin board support
+### 7. stackoverflow support
 
-
+# 
