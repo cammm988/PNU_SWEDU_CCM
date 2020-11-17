@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="Stackoverflow work added">
+    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="Stackoverflow work revised">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-builds/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ace-builds/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-builds/css/stackoverflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/ace-builds/css/stackoverflow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ace-builds/html/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/ace-builds/html/editor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ace-builds/javascript/stackoverflow.js" beforeDir="false" afterPath="$PROJECT_DIR$/ace-builds/javascript/stackoverflow.js" afterDir="false" />
     </list>
@@ -65,14 +67,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\other" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WebstormProjects\PNU_SWEDU_CCM" />
       <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\ace-builds\lib" />
       <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\ace-builds\html" />
       <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\ace-builds\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\PNU_SWEDU_CCM\Lee_Chan_Young\other" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
@@ -115,7 +117,7 @@
       <workItem from="1605489932568" duration="6089000" />
       <workItem from="1605504598282" duration="3911000" />
       <workItem from="1605517480139" duration="2103000" />
-      <workItem from="1605607202036" duration="3715000" />
+      <workItem from="1605607202036" duration="5640000" />
     </task>
     <task id="LOCAL-00001" summary="deleted ace editor">
       <created>1604553330187</created>
@@ -208,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605601126296</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Stackoverflow work revised">
+      <created>1605611769266</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605611769266</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +261,8 @@
     <MESSAGE value="submenu 추가" />
     <MESSAGE value="파일 대량 정리 및 삭제, 추가" />
     <MESSAGE value="Stackoverflow work added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stackoverflow work added" />
+    <MESSAGE value="Stackoverflow work revised" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stackoverflow work revised" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="245" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605518794026">
@@ -287,10 +297,10 @@
     </state>
     <state width="1579" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1605601150591" />
     <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605519546389" />
-    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605601129498">
+    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605611773506">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605601129498" />
+    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605611773506" />
     <state x="941" y="220" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605459494482" />
     <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605607392622">
       <screen x="0" y="0" width="1600" height="900" />
@@ -310,10 +320,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605461678202" />
-    <state x="919" y="196" width="672" height="565" key="search.everywhere.popup" timestamp="1605595070022">
+    <state x="919" y="196" width="672" height="565" key="search.everywhere.popup" timestamp="1605611893090">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="919" y="196" width="672" height="565" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1605595070022" />
+    <state x="919" y="196" width="672" height="565" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1605611893090" />
     <state x="1103" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605460178602" />
   </component>
   <component name="XDebuggerManager">

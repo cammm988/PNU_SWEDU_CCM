@@ -13,9 +13,12 @@ div.left {
 
 div.right {
     height:100%;
-    margin: 10px;
+    margin: 10px 0 0 30px;
     display:inline-block;
-    text-align:center;
+
     float:left;
+    /*margin-left : 20px;*/
+
+
 }
 
