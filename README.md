@@ -28,12 +28,12 @@ nodejs index.js
 
 혹은 ace-builds/html/index.html을 직접 실행시킵니다..
 
-#Editor & Contributor
+# Editor & Contributor
 + 이찬영, cammm988@naver.com
 + 박희연, gmldus0582@naver.com
 + 박은영, ey5321@naver.com
 
-#License
+# License
 Copyright (c) 2010, Ajax.org B.V.
 All rights reserved.
 
