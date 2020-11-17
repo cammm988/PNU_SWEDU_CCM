@@ -13,6 +13,8 @@
 ### 6. mentoring bulletin board support
 ### 7. stackoverflow support
 
-# 
-
-<img src ="./>
+# screen shot
+<div>
+<img width="500" src ="https://user-images.githubusercontent.com/48707059/99401228-4c938180-292b-11eb-9bcb-cba5a4b1f49b.png">
+<img width="500" src = "https://user-images.githubusercontent.com/48707059/99401239-4ef5db80-292b-11eb-9397-a65cddbb9d6e.png">
+</div>
