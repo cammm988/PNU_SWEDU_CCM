@@ -9,7 +9,8 @@
     <link href = "../css/mentoring.css" rel = "stylesheet">
     <link rel="stylesheet" href="../css/submenu_1.css">
     <link rel="stylesheet" href="../css/submenu_2.css">
-
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/stackoverflow.css">
 
 
 </head>
@@ -18,7 +19,7 @@
 <div class = "left">
     <!-- buttons -->
     <div class = "buttons">
-        <button type = "button" class = "button" > Stackoverflow </button>
+        <button type = "button" class = "button" title = "블록 처리 한 후 클릭해주세요" onclick = "stackoverflow() " > Stackoverflow </button>
         <button type = "button" class = "button"> Compile </button>
         <button type = "button" class = "button" id="mentoring" > Mentoring</button>
     </div>
@@ -68,31 +69,37 @@ for (int i = 0 ; i< a.length(); i++) {
 
 
 <!-- mentoring modal pop-up-->
-<div id="myModal" class="modal">
-    <!-- Modal content -->
-    <div class="modal-name">
-        <span class="close">&times;</span>
-        <p class = "Title"> Mentoring</p>
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-name">
+            <span class="close">&times;</span>
+            <p class = "Title"> Mentoring</p>
 
-        <div class = "frame-work">
-            <div id = "modal-content">
-                <p class = "sub_title"> 질문 제목 </p>
-                <input type="text" id="input1" class="Input-text" placeholder="제목을 입력하세요">
-                <p class = "sub_title"> 질문</p>
-                <textarea type="text" id = "textarea1" class="Input-text" placeholder="내용을 입력하세요"></textarea>
-            </div>
+            <div class = "frame-work">
+                <div id = "modal-content">
+                    <p class = "sub_title"> 질문 제목 </p>
+                    <input type="text" id="input1" class="Input-text" placeholder="제목을 입력하세요">
+                    <p class = "sub_title"> 질문</p>
+                    <textarea type="text" id = "textarea1" class="Input-text" placeholder="내용을 입력하세요"></textarea>
+                </div>
 
-            <div id = "coding-region" style = "color : white">
-                <p>불러온 코드</p>
+                <div id = "coding-region" style = "color : white">
+                    <p>불러온 코드</p>
 
-                <pre id="editor2"></pre>
-                <button id = "submission"> 제출 </button>
-            </div>
+                    <pre id="editor2"></pre>
+                    <button id = "submission"> 제출 </button>
+                </div>
+             </div>
         </div>
     </div>
 </div>
 
-
+<div class = "right">
+    <div id = "stackoverflow">
+<!--        <object type="text/html" data="https://faq.exchange/" width="800px" height="600px" style="overflow:auto;border:3px ridge blue">-->
+<!--        </object>-->
+        <object href="https://www.naver.com"  width="800px" height="600px" style="overflow:auto;border:3px ridge blue"></object>
+    </div>
 </div>
     <script>function eraseAll() {editor.setValue("");}</script>
     <script src="../javascript/helper.js"></script>
@@ -108,5 +115,6 @@ for (int i = 0 ; i< a.length(); i++) {
     <script src ="../javascript/fileread.js"></script>
     <script src="../javascript/filesave.js"></script>
     <script src="../lib/FileSaver.js"></script>
+    <script src="../javascript/stackoverflow.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+    height : 100vh;
+    width : 100%;
+    margin : 0px;
+}
+div.left {
+    height : 100%;
+    width : 600px;
+    display:inline-block;
+    float:left;
+}
+
+div.right {
+    height:100%;
+    margin: 10px;
+    display:inline-block;
+    text-align:center;
+    float:left;
+}
+
