@@ -19,14 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="Compiler working">
-      <change afterPath="$PROJECT_DIR$/ace-builds/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-builds/css/stackoverflow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-builds/javascript/stackoverflow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-11__9_29__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-11__9_29__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="Stackoverflow work added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ace-builds/css/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/ace-builds/css/editor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ace-builds/html/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/ace-builds/html/editor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-builds/javascript/stackoverflow.js" beforeDir="false" afterPath="$PROJECT_DIR$/ace-builds/javascript/stackoverflow.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f65e0d1b-0afb-4ffe-b635-edf325ed61ac" name="Default Changelist" comment="ace-master editor first addedg" />
+      <changelist id="a2e2be27-fee4-4304-bfc0-5e5f79d8ee68" name="Default Changelist" comment="Stackoverflow work added" />
       <created>1604372309369</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -119,6 +115,7 @@
       <workItem from="1605489932568" duration="6089000" />
       <workItem from="1605504598282" duration="3911000" />
       <workItem from="1605517480139" duration="2103000" />
+      <workItem from="1605607202036" duration="3715000" />
     </task>
     <task id="LOCAL-00001" summary="deleted ace editor">
       <created>1604553330187</created>
@@ -204,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605519874427</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Stackoverflow work added">
+      <created>1605601126296</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605601126296</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +251,8 @@
     <MESSAGE value="copying editor 1 into editor2" />
     <MESSAGE value="submenu 추가" />
     <MESSAGE value="파일 대량 정리 및 삭제, 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="파일 대량 정리 및 삭제, 추가" />
+    <MESSAGE value="Stackoverflow work added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stackoverflow work added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="245" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605518794026">
@@ -262,35 +267,35 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605518783324" />
-    <state width="1579" height="235" key="GridCell.Tab.0.bottom" timestamp="1605598777373">
+    <state width="1579" height="235" key="GridCell.Tab.0.bottom" timestamp="1605601150591">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1605598777373" />
+    <state width="1579" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1605601150591" />
     <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605519546389" />
-    <state width="1579" height="235" key="GridCell.Tab.0.center" timestamp="1605598777373">
+    <state width="1579" height="235" key="GridCell.Tab.0.center" timestamp="1605601150591">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1605598777373" />
+    <state width="1579" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1605601150591" />
     <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605519546389" />
-    <state width="1579" height="235" key="GridCell.Tab.0.left" timestamp="1605598777373">
+    <state width="1579" height="235" key="GridCell.Tab.0.left" timestamp="1605601150591">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1605598777373" />
+    <state width="1579" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1605601150591" />
     <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605519546388" />
-    <state width="1579" height="235" key="GridCell.Tab.0.right" timestamp="1605598777373">
+    <state width="1579" height="235" key="GridCell.Tab.0.right" timestamp="1605601150591">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1605598777373" />
+    <state width="1579" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1605601150591" />
     <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605519546389" />
-    <state x="941" y="220" key="Vcs.Push.Dialog.v2" timestamp="1605459494482">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="784" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605601129498">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605074988191" />
+    <state x="784" y="183" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1605601129498" />
     <state x="941" y="220" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605459494482" />
-    <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605416062854">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605607392622">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1604554564130" />
+    <state x="1015" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1605607392622" />
     <state x="1218" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605416062854" />
     <state x="557" y="96" width="554" height="804" key="find.popup" timestamp="1605600118854">
       <screen x="0" y="0" width="1600" height="900" />
